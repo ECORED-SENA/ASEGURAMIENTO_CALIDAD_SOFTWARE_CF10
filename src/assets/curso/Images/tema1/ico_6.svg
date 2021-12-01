@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111" height="111" viewBox="0 0 111 111">
+  <g id="Grupo_90671" data-name="Grupo 90671" transform="translate(-892 -5294)">
+    <g id="Capa_1" data-name="Capa 1" transform="translate(892 5294.042)">
+      <rect id="Rectángulo_37860" data-name="Rectángulo 37860" width="111" height="111" transform="translate(0 -0.041)" fill="none" stroke="#1565b2" stroke-miterlimit="10" stroke-width="0"/>
+      <g id="Grupo_89113" data-name="Grupo 89113" transform="translate(2.191 14.945)">
+        <path id="Trazado_164712" data-name="Trazado 164712" d="M30.58,38a12.555,12.555,0,0,1,24.932,2.985" transform="translate(-15.806 -26.937)" fill="none" stroke="#1565b2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="0 4"/>
+        <g id="Grupo_89112" data-name="Grupo 89112" transform="translate(14.852 50.854)">
+          <path id="Trazado_164713" data-name="Trazado 164713" d="M57.827,120.77a10.408,10.408,0,0,1-20.677,0" transform="translate(-33.583 -119.566)" fill="none" stroke="#1565b2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Trazado_164714" data-name="Trazado 164714" d="M64.81,122.5l.649.9,4.433-3.2,2.874,4.655.943-.583-3.5-5.67Z" transform="translate(-45.897 -118.6)" fill="#1565b2"/>
+          <path id="Trazado_164715" data-name="Trazado 164715" d="M39.619,122.5l-.649.9-4.433-3.2-2.874,4.655-.943-.583,3.5-5.67Z" transform="translate(-30.72 -118.6)" fill="#1565b2"/>
+        </g>
+        <circle id="Elipse_7428" data-name="Elipse 7428" cx="13.565" cy="13.565" r="13.565" transform="translate(76.167 19.425)" fill="none" stroke="#1565b2" stroke-miterlimit="10" stroke-width="3"/>
+        <circle id="Elipse_7429" data-name="Elipse 7429" cx="15.429" cy="15.429" r="15.429" transform="translate(0 17.561)" fill="none" stroke="#1565b2" stroke-miterlimit="10" stroke-width="3"/>
+        <circle id="Elipse_7430" data-name="Elipse 7430" cx="7.95" cy="7.95" r="7.95" transform="translate(55.973 25.039)" fill="none" stroke="#1565b2" stroke-miterlimit="10" stroke-width="3"/>
+        <circle id="Elipse_7431" data-name="Elipse 7431" cx="5.775" cy="5.775" r="5.775" transform="translate(35.529 27.214)" fill="none" stroke="#1565b2" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>
