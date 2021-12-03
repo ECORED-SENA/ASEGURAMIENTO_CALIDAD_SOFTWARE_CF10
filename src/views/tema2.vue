@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Análisis de rendimiento.
+      h1 Análisis de rendimiento
 
     .col-lg-12.mb-3
       img(src="@/assets/curso/Images/tema2/img_1.png", alt= "")
@@ -15,7 +15,7 @@
     Separador 
    
     #t_2_1.titulo-segundo
-      h2 2.1 Preparación e identificación.
+      h2 2.1 Preparación e identificación
     p.mb-3 A manera de ejemplo, inicialmente se importará una base de datos sencilla para poder identificar las consultas y consultar los datos, esta base tiene dos tablas, cliente y compra e inicialmente se generan dos índices que son sus llaves primarias.
 
     figure.mb-5
@@ -25,7 +25,7 @@
     Separador 
    
     #t_2_2.titulo-segundo
-      h2 2.2 Análisis de plan de ejecución de consultas.
+      h2 2.2 Análisis de plan de ejecución de consultas
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-7.mb-5.mb-lg-0
@@ -43,7 +43,7 @@
     Separador 
    
     #t_2_3.titulo-segundo
-      h2 2.3 Optimización de consultas.
+      h2 2.3 Optimización de consultas
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg.order-2.order-lg-1
@@ -69,7 +69,7 @@
     Separador 
     
     #t_2_4.titulo-segundo
-      h2 2.4 Recomendaciones.
+      h2 2.4 Recomendaciones
 
     p.mb-5 Al momento de mejorar un sistema se debe tener muy en cuenta cómo se arman las consultas en la base de datos y como ya se tiene claro acerca de cómo se arman estas sentencias y se mejoran dichas consultas, se darán unas recomendaciones para mejorar el rendimiento que son:
 

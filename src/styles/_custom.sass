@@ -23,6 +23,8 @@
   z-index: 2
 .jumbotron
   background-color: #F3F9FF
+.jumbotron-1
+  background-color: #C0EBE7
 .titulo-segundo::after 
     content: ''
     display: block
@@ -58,3 +60,30 @@
 .onTop
   position: relative
   z-index: 10
+
+//animacion banner principal 
+
+.banner-principal__img
+  background-image: url("../assets/curso/Images/header/banner-principal.svg"), url("../assets/curso/Images/header/flotantes_1.svg")
+  align-self: stretch
+  background-repeat: no-repeat, no-repeat
+  background-position: bottom center, 50% 20%
+  background-size: 90%, 94%
+  animation: Float 6s ease-in-out infinite
+  img
+    display: none !important
+@keyframes Float
+  0%
+    background-image: url("../assets/curso/Images/header/banner-principal.svg"), url("../assets/curso/Images/header/flotantes_1.svg")
+    transform: translatey(0px)
+  50%
+    background-image: url("../assets/curso/Images/header/banner-principal.svg"), url("../assets/curso/Images/header/flotantes_1.svg")
+    background-position: bottom center, 50% 10% 
+  100%
+    background-image: url("../assets/curso/Images/header/banner-principal.svg"), url("../assets/curso/Images/header/flotantes_1.svg")
+    transform: translatey(0px)
+@media screen and (min-width: 1200px)
+  .banner-principal__img
+    background-size: 66%, 75%
+
+  

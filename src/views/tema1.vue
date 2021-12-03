@@ -98,8 +98,8 @@
       .col-8.col-md-8.col-lg-6(data-aos="fade-left")
         img(src="@/assets/curso/Images/tema1/img_8.svg" alt="", style="width:450px; display:block; margin: 0 auto;")
 
-    TabsC.color-acento-contenido(data-aos="fade-left")
-      .py-3.py-md-4.color-custom-2.p-4(titulo="Burbuja")
+    TabsB.color-acento-contenido.mb-5(data-aos="fade-left")
+      .py-4.py-md-5.color-custom-2.p-4(titulo="Burbuja" :icono="require('@/assets/curso/Images/tema1/ico_4.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             p Recorre el array, comparando valores que se encuentran en posiciones seguidas, si los datos de las dos posiciones no se encuentran ordenadas se intercambian, y se sigue iterando hasta que el array quede en el orden correcto, para entender más el funcionamiento de este algoritmo revisa material complementario.
@@ -108,32 +108,30 @@
             figure
               img(src='@/assets/curso/Images/tema1/img_9.svg', alt='Texto que describa la imagen')
               
-      .py-3.py-md-4.color-custom-2.p-4(titulo="Método de Selección")
+      .py-4.py-md-5.color-custom-2.p-4(titulo="Método de Selección" :icono="require('@/assets/curso/Images/tema1/ico_5.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
-            p En este método lo que primero se debe hacer es seleccionar el elemento de la primera posición y compararlo como el más pequeño o el más grande de todo el conjunto de elementos, en este caso seleccionaremos el más pequeño, recorremos posición por posición comparando que el elemento que seleccionamos es el más pequeño que el de la posición actual, si después de recorrer todo el array ya encontramos el más pequeño lo intercambiamos con el elemento que está en la primera posición y nos desplazamos a la segunda posición volvemos a comprar hasta el final del array y si encontramos el más pequeño lo intercambiamos con el elemento de la segunda posición y así sucesivamente hasta terminar de desplazarnos por todo el array, para entender mejor revisar el material complementario de este documento.
-
-        
           .col-md-6
+            p En este método lo que primero se debe hacer es seleccionar el elemento de la primera posición y compararlo como el más pequeño o el más grande de todo el conjunto de elementos, en este caso seleccionaremos el más pequeño, recorremos posición por posición comparando que el elemento que seleccionamos es el más pequeño que el de la posición actual, si después de recorrer todo el array ya encontramos el más pequeño lo intercambiamos con el elemento que está en la primera posición y nos desplazamos a la segunda posición volvemos a comprar hasta el final del array y si encontramos el más pequeño lo intercambiamos con el elemento de la segunda posición y así sucesivamente hasta terminar de desplazarnos por todo el array, para entender mejor revisar el material complementario de este documento.
+          .col-md-6.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/Images/tema1/img_10.svg', alt='Texto que describa la imagen')
               
-      .py-3.py-md-4.color-custom-2.p-4(titulo="Método de Inserción")
+      .py-4.py-md-5.color-custom-2.p-4(titulo="Método de Inserción" :icono="require('@/assets/curso/Images/tema1/ico_6.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
+           
             p Este modo lo que hace es comprar el elemento con el elemento que se encuentra a la izquierda, como el primer elemento está en la posición 0 y no hay ningún elemento al lado izquierdo pasamos al elemento 1 y lo comparamos con el elemento de la posición 0, si este elemento es menor que el elemento de la posición anterior entonces lo intercambiamos de lo contrario pasamos a la siguiente posición, el elemento debe desplazarse hacia la izquierda tantas veces hasta que encuentre uno menor.
         
           .col-md-6
             figure
               img(src='@/assets/curso/Images/tema1/img_11.svg', alt='Texto que describa la imagen')
-              
-      .py-3.py-md-4.color-custom-2.p-4(titulo="Quicksort")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            p Este método lo que hace es tomar inicialmente un pívot, normalmente se toma el primer elemento, después se empieza a comparar cada uno de los elementos y en el array de la izquierda se van a agregando uno a uno los menores o iguales al pivote y a la derecha se van agregando los mayores, después se concatenan teniendo en cuento que el pívot queda en el medio, y se toma los arrays a la izquierda y derecha y vuelve y se toma un pivote para volver a hacer el proceso, al final devuelve el array ordenado.
+             
 
-        
+      .py-4.py-md-5.color-custom-2.p-4(titulo="Quicksort" :icono="require('@/assets/curso/Images/tema1/ico_7.svg')")
+        .row
           .col-md-6
+            p Este método lo que hace es tomar inicialmente un pívot, normalmente se toma el primer elemento, después se empieza a comparar cada uno de los elementos y en el array de la izquierda se van a agregando uno a uno los menores o iguales al pivote y a la derecha se van agregando los mayores, después se concatenan teniendo en cuento que el pívot queda en el medio, y se toma los arrays a la izquierda y derecha y vuelve y se toma un pivote para volver a hacer el proceso, al final devuelve el array ordenado.
+          .col-md-6.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/Images/tema1/img_12.svg', alt='Texto que describa la imagen')
             
@@ -155,107 +153,6 @@
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-
-    Muestras
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
