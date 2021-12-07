@@ -10,12 +10,15 @@
             img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica 1
-        p.mb-4 Cras tempus tortor et nisi tincidunt feugiat. Integer lacus ante, venenatis nec fringilla quis, dapibus ut dui. Fusce imperdiet velit a leo sagittis, id scelerisque massa placerat. Duis at dui sed enim euismod pulvinar quis ac ante. Phasellus condimentum sapien nisi, ac facilisis purus tristique ac. Quisque magna est, luctus vitae elit ut, convallis venenatis justo. Nunc pretium elit a nisi tempus sagittis.
+          h2 Relacionar conceptos con significados correctos.
+        p.mb-3 El aprendiz debe relacionar los conceptos de los algoritmos de búsqueda y diferenciarlos, ya que la forma como se implementan se hizo para cumplir el mismo fin recorrer, comprar e intercambiar y tienen formas de iterar muy parecidas pero solo un cambio de cómo se hace aumenta o disminuye el tiempo de respuesta.
+
+        p.mb-3 Por lo tanto se colocan conceptos a un lado con las características principales de cada una y al otro lado el nombre del algoritmo y se debe direccionar mediante una línea a cual corresponde.
+
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Descripción de la actividad didáctica.
+              p.fw-bold.mb-0 Relacionar conceptos con significados correctos.
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
