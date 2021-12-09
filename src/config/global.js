@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Pruebas de rendimiento bases de datos',
     descripcionCurso:
       'Este componente explicará cómo se afina un motor de base de datos, cómo se analizan y se optimizan las consultas mejorando sus tiempos de respuesta, además explica cómo funcionan los algoritmos de búsqueda. ',
-    //imagenBannerPrincipal: require('@/assets/curso/Images/header/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/Images/header/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/Images/header/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -41,8 +41,14 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Índices y rendimiento en bases de datos',
+            titulo: 'Algoritmos de busqueda',
             hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Índices y rendimiento en bases de datos',
+            hash: 't_1_4',
           },
         ],
       },
@@ -144,18 +150,18 @@ export default {
   referencias: [
     {
       referencia:
-        'Guillermo, J. (2018). Qué es la complejidad algorítmica y con qué se come ',
+        'Guillermo, J. (2018). Qué es la complejidad algorítmica y con qué se come. ',
       link:
         'https://medium.com/@joseguillermo_/qu%C3%A9-es-la-complejidad-algor%C3%ADtmica-y-con-qu%C3%A9-se-come-2638e7fd9e8c',
     },
     {
-      referencia: 'Laboratorio Devs (2017) ',
+      referencia: 'Laboratorio Devs (2017) Algoritmos y notación asintótica. ',
       link:
-        'Algoritmos y notación asintótica. https://medium.com/laboratoria-developers/algoritmos-y-notaci%C3%B3n-asint%C3%B3tica-817a666ca444',
+        'https://medium.com/laboratoria-developers/algoritmos-y-notaci%C3%B3n-asint%C3%B3tica-817a666ca444',
     },
     {
       referencia:
-        'ochobitshacenunbyte (2020) Motores de almacenamiento en MySQL y MariaDB ',
+        'ochobitshacenunbyte (2020) Motores de almacenamiento en MySQL y MariaDB.',
       link:
         'https://www.ochobitshacenunbyte.com/2020/08/11/motores-de-almacenamiento-en-mysql-y-mariadb/',
     },
@@ -163,31 +169,31 @@ export default {
   glosario: [
     {
       termino: 'Array',
-      significado: 'Colección de elementos y sus posiciones',
+      significado: 'Colección de elementos y sus posiciones.',
     },
     {
       termino: 'Iterar',
-      significado: 'Realizar cierta acción o acciones varias veces',
+      significado: 'Realizar cierta acción o acciones varias veces.',
     },
     {
       termino: 'Aplicación',
       significado:
-        'Una <b>aplicación</b> es un programa <b>informático</b> diseñado como una herramienta para realizar operaciones o funciones específicas. Generalmente, son diseñadas para facilitar ciertas tareas complejas y hacer más sencilla la experiencia <b>informática</b> de las personas',
+        'Una <b>aplicación</b> es un programa <b>informático</b> diseñado como una herramienta para realizar operaciones o funciones específicas. Generalmente, son diseñadas para facilitar ciertas tareas complejas y hacer más sencilla la experiencia <b>informática</b> de las personas.',
     },
     {
-      termino: 'Contaminar',
+      termino: 'Implementación',
       significado:
-        'Depositar en un elemento una sustancia que es perjudicial para la salud de los seres vivos',
+        'Poner en funcionamiento o aplicar métodos, medidas , etc., para llevar algo a cabo.',
     },
     {
       termino: 'Base de datos',
       significado:
-        'Una <b>base de datos </b>es una recopilación organizada de información o <b>datos</b> estructurados, que normalmente se almacena de forma electrónica en un sistema informático',
+        'Una <b>base de datos </b>es una recopilación organizada de información o <b>datos</b> estructurados, que normalmente se almacena de forma electrónica en un sistema informático.',
     },
     {
       termino: 'Servidor',
       significado:
-        'Un <b>servidor</b> es un conjunto de computadoras capaz de atender las peticiones de un cliente y devolverle una respuesta en concordancia',
+        'Un <b>servidor</b> es un conjunto de computadoras capaz de atender las peticiones de un cliente y devolverle una respuesta en concordancia.',
     },
   ],
   complementario: [
@@ -257,7 +263,7 @@ export default {
       },
       {
         nombre: 'David Eduardo Lozada Cerón',
-        cargo: 'Experta Temática',
+        cargo: 'Experta temática',
         centro:
           'Centro de teleinformática y producción industrial - Regional Cauca',
       },
@@ -268,7 +274,7 @@ export default {
       },
       {
         nombre: 'Carolina Coca Salazar',
-        cargo: 'Revisora Metodológica y Pedagógica ',
+        cargo: 'Revisora metodológica y pedagógica ',
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
@@ -338,7 +344,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

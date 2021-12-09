@@ -31,7 +31,7 @@
       .col-12.col-lg-7.mb-5.mb-lg-0
         p.mb-3 Lo primero es identificar las consultas que van a traer más información y que pueden tornarse lentas al momento de que los usuarios comiencen a realizar solicitudes.
 
-        p Ahora se inicia el monitoreo de esas consultas identificando los tiempos de respuesta utilizando el comando explain en Mysql, hay que tener en cuenta que este comando puede variar dependiendo del motor de base de datos que se utilice.
+        p Ahora se inicia el monitoreo de esas consultas identificando los tiempos de respuesta utilizando el comando <i>explain</i> en Mysql, hay que tener en cuenta que este comando puede variar dependiendo del motor de base de datos que se utilice.
       .col-lg-5.mb-5.mb-lg-0
         img.my-3(src="@/assets/curso/Images/tema2/img_2.svg", alt="")
 
@@ -57,7 +57,7 @@
 
     p.mb-3 Si se observa la sentencia marcada con azul no utiliza Join y solo utiliza la llave primaria y la segunda sentencia utiliza el Join, sí se detalla el tiempo de la sentencia roja es mucho mejor el tiempo de respuesta, por lo tanto una forma de optimizar las sentencias de búsqueda con respecto al rendimiento es utilizando los Join.
 
-    p.mb-3  Ahora se agrega además un index a la consulta con el campo identificación.
+    p.mb-3  Ahora se agrega además un <i>index</i> a la consulta con el campo identificación.
 
     .col-lg-12.mb-5
       img(src="@/assets/curso/Images/tema2/img_6.svg", alt= "")(data-aos="fade-right")

@@ -23,12 +23,12 @@
       .col-lg-6.mb-lg-0.p-3.fondo-1
           img(src="@/assets/curso/Images/tema1/img_2_1.svg" alt="", style="width:450px; display:block; margin: 0 3rem;")
 
-    p.mb-3 Se crean algoritmos para poder recorrer y hacer búsquedas de información en grandes cantidades de datos y se explica el funcionamiento de cada uno de ellos, para mejorar su comprensión: 
+    p.mb-5 Se crean algoritmos para poder recorrer y hacer búsquedas de información en grandes cantidades de datos y se explica el funcionamiento de cada uno de ellos, para mejorar su comprensión: 
     
    
     SlyderB.mb-5(:datos="datosSlyder")(data-aos="fade-left")
 
-    p.mb-5 Estas estructuras se pueden recorrer de tres formas: Preorden, postorden e inorden; ahora se explicará en qué consiste cada uno de estos recorridos:
+    p.mb-5 Estas estructuras se pueden recorrer de tres formas: preorden, postorden e inorden; ahora se explicará en qué consiste cada uno de estos recorridos:
 
     .jumbotron.p-4(data-aos="fade-left")
       .row.justify-content-center.align-items-center
@@ -39,16 +39,16 @@
               figure
                 img(src='@/assets/curso/Images/tema1/ico_1.svg' alt="", style="width:70px; display:block; margin:auto 0;")    
             .col
-              h3 Preorden:
-              p.mb-2 Se sigue el orden primero con el nodo raíz después el nodo de la izquierda y por último el de la derecha
+              h3 Preorden
+              p.mb-2 Se sigue el orden primero con el nodo raíz después el nodo de la izquierda y por último el de la derecha.
           hr.mt-5.mb-4
           .row.justify-content-center.align-items-center
             .col-auto
               figure
                 img(src='@/assets/curso/Images/tema1/ico_2.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
             .col
-              h3 Postorden:
-              p se recorre primero el nodo de la izquierda, luego el de la derecha y por último el nodo raíz.
+              h3 Postorden
+              p Se recorre primero el nodo de la izquierda, luego el de la derecha y por último el nodo raíz.
           hr.mt-5.mb-4
           .row.justify-content-center.align-items-center
             .col-auto
@@ -80,6 +80,10 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
           img(src="@/assets/curso/Images/tema1/img_7.svg", alt="")
+
+    #t_1_3.titulo-segundo
+      h2 1.3 Algoritmos de busqueda
+
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-6
         .cajon.color-custom-4.p-4.mb-4
@@ -93,7 +97,7 @@
 
           p.mb-3 <b>Este es un proceso para organizar los elementos o un conjunto de datos de forma ascendente o descendente si es el caso de que los elementos sean números y si son alfabéticos en orden alfabético,</b> esta ordenación se repite hasta que los elementos o datos estén ordenados correctamente, para lograr este proceso se utilizan dos simples operaciones, comparación e intercambio.
 
-          p Por lo tanto se crearon unos algoritmos que permiten realizar estas acciones para lograr el orden deseado de los datos.
+          p Por lo tanto, se crearon unos algoritmos que permiten realizar estas acciones para lograr el orden deseado de los datos.
 
       .col-8.col-md-8.col-lg-6(data-aos="fade-left")
         img(src="@/assets/curso/Images/tema1/img_8.svg" alt="", style="width:450px; display:block; margin: 0 auto;")
@@ -111,7 +115,7 @@
       .py-4.py-md-5.color-custom-2.p-4(titulo="Método de Selección" :icono="require('@/assets/curso/Images/tema1/ico_5.svg')")
         .row
           .col-md-6
-            p En este método lo que primero se debe hacer es seleccionar el elemento de la primera posición y compararlo como el más pequeño o el más grande de todo el conjunto de elementos, en este caso seleccionaremos el más pequeño, recorremos posición por posición comparando que el elemento que seleccionamos es el más pequeño que el de la posición actual, si después de recorrer todo el array ya encontramos el más pequeño lo intercambiamos con el elemento que está en la primera posición y nos desplazamos a la segunda posición volvemos a comprar hasta el final del array y si encontramos el más pequeño lo intercambiamos con el elemento de la segunda posición y así sucesivamente hasta terminar de desplazarnos por todo el array, para entender mejor revisar el material complementario de este documento.
+            p En este método lo que primero se debe hacer es seleccionar el elemento de la primera posición y compararlo como el más pequeño o el más grande de todo el conjunto de elementos, en este caso seleccionaremos el más pequeño, recorremos posición por posición comparando que el elemento que seleccionamos es el más pequeño que el de la posición actual, si después de recorrer todo el array ya encontramos el más pequeño lo intercambiamos con el elemento que está en la primera posición y nos desplazamos a la segunda posición volvemos a comparar hasta el final del array y si encontramos el más pequeño lo intercambiamos con el elemento de la segunda posición y así sucesivamente hasta terminar de desplazarnos por todo el array, para entender mejor revisar el material complementario de este documento.
           .col-md-6.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/Images/tema1/img_10.svg', alt='Texto que describa la imagen')
@@ -120,7 +124,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
            
-            p Este modo lo que hace es comprar el elemento con el elemento que se encuentra a la izquierda, como el primer elemento está en la posición 0 y no hay ningún elemento al lado izquierdo pasamos al elemento 1 y lo comparamos con el elemento de la posición 0, si este elemento es menor que el elemento de la posición anterior entonces lo intercambiamos de lo contrario pasamos a la siguiente posición, el elemento debe desplazarse hacia la izquierda tantas veces hasta que encuentre uno menor.
+            p Este modo lo que hace es comparar el elemento con el elemento que se encuentra a la izquierda, como el primer elemento está en la posición 0 y no hay ningún elemento al lado izquierdo pasamos al elemento 1 y lo comparamos con el elemento de la posición 0, si este elemento es menor que el elemento de la posición anterior entonces lo intercambiamos de lo contrario pasamos a la siguiente posición, el elemento debe desplazarse hacia la izquierda tantas veces hasta que encuentre uno menor.
         
           .col-md-6
             figure
@@ -137,8 +141,8 @@
             
     Separador 
    
-    #t_1_3.titulo-segundo
-      h2 1.3 Índices y rendimiento en bases de datos
+    #t_1_4.titulo-segundo
+      h2 1.4 Índices y rendimiento en bases de datos
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-7.mb-5.mb-lg-0
@@ -205,7 +209,7 @@ export default {
       {
         titulo: 'Árbol Binario',
         texto:
-          'Es una estructura de datos en donde se representa por nodos y cada nodo puede tener dos hijos uno a la izquierda y otro a la derecha, si uno de los nodos tiene un valor de null se le dice que es un nodo hoja.',
+          'Es una estructura de datos en donde se representa por nodos y cada nodo puede tener dos hijos uno a la izquierda y otro a la derecha, si uno de los nodos tiene un valor de <i>null</i> se le dice que es un nodo hoja.',
         imagen: require('@/assets/curso/Images/tema1/img_4.svg'),
       },
     ],

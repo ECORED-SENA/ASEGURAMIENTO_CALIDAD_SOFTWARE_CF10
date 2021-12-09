@@ -11,7 +11,7 @@
       .col-12.col-lg-7.mb-5.mb-lg-0
         p.mb-3 El afinamiento de Base de Datos es el proceso que se hace de acuerdo al sistema operativo, a la arquitectura del servidor, como el disco duro, memoria, etc. y a las transacciones y usuarios que se puedan conectar y hacer solicitudes.
 
-        p Los informes basados en esquemas de rendimiento proporcionan información sobre las operaciones del servidor MySQL a través de útiles informes de alto nivel. MySQL Workbench utiliza las vistas SYS en el esquema de rendimiento para generar más de 20 informes para ayudar a analizar el rendimiento de sus bases de datos MySQL. Los informes ayudan a analizar los puntos de acceso de E / S,descubrir declaraciones SQL de alto costo y revisar las estadísticas de espera y las métricas del motor InnoDB.
+        p Los informes basados en esquemas de rendimiento proporcionan información sobre las operaciones del servidor MySQL a través de útiles informes de alto nivel. MySQL Workbench utiliza las vistas SYS en el esquema de rendimiento para generar más de 20 informes para ayudar a analizar el rendimiento de sus bases de datos MySQL. Los informes ayudan a analizar los puntos de acceso de E / S, descubrir declaraciones SQL de alto costo y revisar las estadísticas de espera y las métricas del motor InnoDB.
 
       .col-lg-5.mb-5.mb-lg-0
         img.my-3(src="@/assets/curso/Images/tema3/img_9.svg", alt="")
@@ -34,11 +34,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-12.col-lg-7.mb-5.mb-lg-0
-        p.mb-3 Las configuraciones para un óptimo funcionamiento de una base de datos, depende del motor que se use, el tipo de base de datos, las necesidades del sistema, entre otras características, no es lo mismo configurar una base de datos en un servidor básico que en un servidor con discos en espejo con espacio sólido y 32 Gb de memoria, tampoco es lo mismo configurar un servidor para que almacene una base de datos de forma local en un servidor propio que configurarlo en un contenedor ofrecido por Amazon, por lo tanto se listan algunas conceptos para tener en cuenta según todas estas necesidades y arquitecturas. 
-
-        h3 Recomendaciones generales: 
-        
-        p.mb-3 Emplear imágenes y gráficas puntuales, que faciliten resumir y esquematizar conceptos puntuales. Los conceptos deben abordarse de manera clara.
+        p.mb-3 Las configuraciones para un óptimo funcionamiento de una base de datos, dependen del motor que se use, el tipo de base de datos, las necesidades del sistema, entre otras características, no es lo mismo configurar una base de datos en un servidor básico que en un servidor con discos en espejo con espacio sólido y 32 Gb de memoria, tampoco es lo mismo configurar un servidor para que almacene una base de datos de forma local en un servidor propio que configurarlo en un contenedor ofrecido por Amazon, por lo tanto se listan algunas conceptos para tener en cuenta según todas estas necesidades y arquitecturas.
 
       .col-lg-5.mb-5.mb-lg-0
         img.my-3(src="@/assets/curso/Images/tema3/img_11.png", alt="")
@@ -57,7 +53,7 @@
               | DB mucho más pequeño que RAM
             li 
               i.fas.fa-angle-right
-              | 90% o más consultas simples
+              | 90 % o más consultas simples
           
           ul.lista-ul(numero="2" titulo="Procesamiento de transacciones en línea (oltp)")
             li 
