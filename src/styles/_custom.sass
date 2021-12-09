@@ -69,9 +69,12 @@
   background-repeat: no-repeat, no-repeat
   background-position: center bottom, 50% 20%
   background-size: 80%, 94%
+  top: -1rem
   animation: Float 6s ease-in-out infinite
   img
     display: none
+.banner-principal__img
+  position: relative
 @keyframes Float
   0%
     background-image: url("../assets/curso/Images/header/banner-principal.svg"), url("../assets/curso/Images/header/flotantes_1.svg")
@@ -82,9 +85,6 @@
   100%
     background-image: url("../assets/curso/Images/header/banner-principal.svg"), url("../assets/curso/Images/header/flotantes_1.svg")
     transform: translatey(0px)
-@media screen and (min-width: 1200px)
+@media screen and (min-width: 1100px)
   .banner-principal__img
     background-size: 66%, 75%
-   
-
-  
