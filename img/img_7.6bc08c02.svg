@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="750" height="427.92" viewBox="0 0 750 427.92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Degradado_sin_nombre_29);
+      }
+
+      .cls-2 {
+        fill: url(#Degradado_sin_nombre_31);
+      }
+
+      .cls-3 {
+        fill: url(#Degradado_sin_nombre_33);
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-4, .cls-7, .cls-8, .cls-9 {
+        fill: none;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #93b3d8;
+        stroke-width: 0.5px;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-13, .cls-14, .cls-5, .cls-6 {
+        fill: #12263f;
+      }
+
+      .cls-6, .cls-8 {
+        stroke: #12263f;
+      }
+
+      .cls-7 {
+        stroke: #662d83;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-7, .cls-9 {
+        stroke-width: 2px;
+      }
+
+      .cls-9 {
+        stroke: #2daea0;
+      }
+
+      .cls-10 {
+        stroke: #ffa726;
+      }
+
+      .cls-11 {
+        stroke: #df1c24;
+      }
+
+      .cls-12 {
+        stroke: #104c82;
+      }
+
+      .cls-13, .cls-14 {
+        font-size: 14px;
+      }
+
+      .cls-13 {
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-14 {
+        font-family: Roboto-Italic, Roboto;
+        font-style: italic;
+      }
+
+      .cls-15 {
+        letter-spacing: -0.06em;
+      }
+
+      .cls-16 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-17 {
+        letter-spacing: 7.8em;
+      }
+
+      .cls-18 {
+        letter-spacing: 7.58em;
+      }
+
+      .cls-19 {
+        letter-spacing: 7.63em;
+      }
+
+      .cls-20 {
+        letter-spacing: 7em;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_29" data-name="Degradado sin nombre 29" x1="471.48" y1="380.98" x2="319.31" y2="152.11" gradientUnits="userSpaceOnUse">
+      <stop offset="0.41" stop-color="#fff"/>
+      <stop offset="1" stop-color="#662d83"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_31" data-name="Degradado sin nombre 31" x1="353.34" y1="351.87" x2="343.52" y2="292.96" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#fff"/>
+      <stop offset="1" stop-color="#32c4b4"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_33" data-name="Degradado sin nombre 33" x1="349.77" y1="372.86" x2="347.18" y2="326.03" gradientUnits="userSpaceOnUse">
+      <stop offset="0.36" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ffa726"/>
+    </linearGradient>
+  </defs>
+  <g id="Capa_1" data-name="Capa 1">
+    <path class="cls-1" d="M52.39,357.72s113.2,5.84,257.24-62.8C510,199.42,643.71,33,643.71,33v322Z"/>
+    <path class="cls-2" d="M52.39,357.72s166.09-4.29,255-20,336.33-55.14,336.33-55.14v75.18Z"/>
+    <path class="cls-3" d="M52.39,357.72s589.21-32,591.32-32v32.16Z"/>
+    <g>
+      <line class="cls-4" x1="52.39" y1="32.95" x2="643.71" y2="32.95"/>
+      <line class="cls-5" x1="52.39" y1="114.14" x2="643.71" y2="114.14"/>
+      <line class="cls-5" x1="52.39" y1="32.95" x2="643.71" y2="32.95"/>
+      <line class="cls-5" x1="52.39" y1="195.33" x2="643.71" y2="195.33"/>
+      <line class="cls-5" x1="52.39" y1="276.53" x2="643.71" y2="276.53"/>
+      <line class="cls-6" x1="52.39" y1="357.72" x2="643.71" y2="357.72"/>
+      <line class="cls-5" x1="643.71" y1="357.72" x2="643.71" y2="32.95"/>
+      <path class="cls-7" d="M52.39,357.72s113.2,5.84,257.24-62.8C510,199.42,643.71,33,643.71,33"/>
+      <line class="cls-8" x1="52.39" y1="32.95" x2="52.39" y2="357.72"/>
+      <line class="cls-5" x1="170.65" y1="32.95" x2="170.65" y2="357.72"/>
+      <line class="cls-5" x1="288.92" y1="32.95" x2="288.92" y2="357.72"/>
+      <line class="cls-5" x1="407.18" y1="32.95" x2="407.18" y2="357.72"/>
+      <line class="cls-5" x1="525.44" y1="32.95" x2="525.44" y2="357.72"/>
+      <path class="cls-9" d="M52.39,357.72s166.09-4.29,255-20,336.33-55.14,336.33-55.14"/>
+      <path class="cls-10" d="M643.71,325.68c-2.11,0-591.32,32-591.32,32"/>
+      <line class="cls-11" x1="52.39" y1="354.93" x2="641.97" y2="349.68"/>
+      <line class="cls-12" x1="643.71" y1="354.93" x2="52.39" y2="354.93"/>
+      <text class="cls-13" transform="translate(664.94 40.39)">O(1)<tspan x="0" y="16.8">O(log(n))</tspan><tspan x="0" y="33.6">O(n)</tspan><tspan x="0" y="50.4">O(n*log(n))</tspan><tspan x="0" y="67.2">O(n*2)</tspan></text>
+      <line class="cls-12" x1="661.37" y1="36.53" x2="646.56" y2="36.53"/>
+      <line class="cls-11" x1="661.37" y1="52.84" x2="646.56" y2="52.84"/>
+      <line class="cls-10" x1="661.37" y1="69.16" x2="646.56" y2="69.16"/>
+      <line class="cls-9" x1="661.37" y1="85.48" x2="646.56" y2="85.48"/>
+      <line class="cls-7" x1="661.37" y1="101.8" x2="646.56" y2="101.8"/>
+      <text class="cls-13" transform="translate(17.96 40.39)">100<tspan x="0" y="72">75</tspan><tspan x="0" y="144">50</tspan><tspan x="0" y="216">25</tspan><tspan x="0" y="288">0</tspan></text>
+      <text class="cls-14" transform="translate(278.39 407.93)"><tspan class="cls-15">T</tspan><tspan x="7.4" y="0">amaño de ent</tspan><tspan class="cls-16" x="90.83" y="0">r</tspan><tspan x="95.22" y="0">ada (n)</tspan></text>
+    </g>
+    <text class="cls-13" transform="translate(48.6 377.1)">0<tspan class="cls-17" x="7.86" y="0">	</tspan><tspan x="120.57" y="0">2</tspan><tspan class="cls-18" x="128.43" y="0">	</tspan><tspan x="238.08" y="0">4</tspan><tspan class="cls-19" x="245.94" y="0">	</tspan><tspan x="356.26" y="0">6</tspan><tspan class="cls-19" x="364.13" y="0">	</tspan><tspan x="474.45" y="0">8 </tspan><tspan class="cls-20" x="485.78" y="0">	</tspan><tspan x="587.21" y="0">10</tspan></text>
+  </g>
+</svg>
